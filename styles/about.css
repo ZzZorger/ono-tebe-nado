@@ -1,0 +1,28 @@
+.about {
+  padding: 180px 50px 0px;
+}
+.about__column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+}
+.about__logo {
+  padding: 0 95px 248px;
+  width: 430px;
+}
+.about__logo-image {
+  width: 240px;
+}
+.about__info-title {
+  padding: 100px 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.about__info-text {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

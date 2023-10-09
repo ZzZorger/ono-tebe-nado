@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  padding: 104px 50px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.header__link {
+  text-decoration: none;
+}
+.header__links-list {
+  display: flex;
+  gap: 32px;
+}
+.header__links-list-item {
+  list-style-type: circle;
+}
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+  border-bottom: none;
+}
+.header__link_active {
+  border-bottom: 1px solid #000000;
+}
+.header__logo {
+  position: absolute;
+  top: 92px;
+  left: 648px;
+}
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
